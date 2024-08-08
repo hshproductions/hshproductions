@@ -96,3 +96,9 @@ footer p {
 footer p strong {
     font-weight: 300;
 }
+
+@media screen and (max-width: 600px) {
+    .repeater {
+    grid-template-columns: 100vw;
+}
+}
