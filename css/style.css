@@ -100,6 +100,14 @@ footer p strong {
 @media screen and (max-width: 600px) {
     .repeater {
         grid-template-columns: 100vw;
-        grid-template-rows: 12.5%;
+        grid-template-rows: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%;
+        height: auto;
+    }
+    .repeater-text {
+        width: 60%;
+        margin: 0 0 0 -30%;
+    }
+    .repeater h2 {
+        font-size: 4vw;
     }
 }
