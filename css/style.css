@@ -1,6 +1,6 @@
 body {
     background-color: black;
-    color: white;
+    color: #FFFFFF;
     font-family: Poppins;
     text-align: center;
     line-height: 5px;
@@ -61,7 +61,7 @@ img {
 }
 
 .repeater-text {
-    border: 2px solid white;
+    border: 2px solid #FFFFFF;
     width: 40%;
     margin: -5% 0 0 -20%;
     background-color: rgba(0, 0, 0, 0.2);
