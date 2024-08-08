@@ -105,10 +105,11 @@ footer p strong {
     }
     .repeater-text {
         width: 60%;
-        margin: -2.5% 0 0 -30%;
+        margin: -5% 0 0 -30%;
         border: 2px solid #FFFFFF;
     }
     .repeater h2 {
         font-size: 4vw;
+        font-weight: 200;
     }
 }
