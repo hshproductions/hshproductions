@@ -1,6 +1,6 @@
 class specialHeader extends HTMLElement {
     connectedCallback() {
-        this.innerHTML = '<nav class="navbar"><div class="container"><div class="logo"><a href="home.html"><img src="images/Logo (No Name).png" alt="logo" width="80"><span class="logo-name"><font color="#FFFFF">HSH</font> <font color="#0171BB">Productions</font></span></a></div></div></nav >'
+        this.innerHTML = '<nav class="navbar"><div class="container"><div class="logo"><a href="home.html"><img src="images/Logo (No Name).png" alt="logo" width="80px"><span class="logo-name"><font color="#FFFFF">HSH</font> <font color="#0171BB">Productions</font></span></a></div></div></nav >'
     }
 }
 

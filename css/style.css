@@ -4,6 +4,17 @@ body {
     font-family: Poppins;
     text-align: center;
     line-height: 5px;
+    margin-left: 0px;
+}
+
+h2 {
+    font-weight: 200;
+    font-size: calc(2vw + 1vh);
+}
+
+p {
+    font-weight: 100;
+    font-size: 1vw;
 }
 
 a, a:hover, a:visited, a:active {
@@ -27,12 +38,22 @@ img {
 .logo img {
     display: inline-block;
     vertical-align: middle;
+    padding-right: 10px;
 }
 
 .logo-name {
     font-weight: 300;
     font-size: 26px;
     vertical-align: middle;
+}
+
+.glass {
+    background: linear-gradient(135deg, rgba(1, 113, 187, 0.2), rgba(1, 113, 187, 0));
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
+    border-radius: 15px;
+    border: 1px solid rgb(255, 255, 255);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
 }
 
 .repeater {
@@ -50,10 +71,6 @@ img {
     height: 100%;
 }
 
-.repeater-item:hover {
-    border: 0.1px rgba(0, 0, 0, 0.1) solid;
-}
-
 .repeater-item img {
     height: 100%;
     width: 100%;
@@ -61,18 +78,20 @@ img {
 }
 
 .repeater-text {
-    border: 2px solid #FFFFFF;
     width: 40%;
     margin: -5% 0 0 -20%;
     background-color: rgba(0, 0, 0, 0.2);
     transition: background-color 0.1s;
+    border-radius: 5px;
 }
 
-.repeater-text:hover {
-    background-color: rgba(0, 0, 0, 0.4);
+.repeater-item:hover {
+    .repeater-text {
+        background-color: rgba(0, 0, 0, 0.4);
+    }
 }
 
-.repeater h2 {
+.repeater h3 {
     font-weight: 100;
     font-size: 1.2vw;
     padding: 0 5px;
@@ -86,6 +105,39 @@ img {
     position: absolute;
     top: 50%;
     left: 50%;
+}
+
+.title-background {
+    width: 100%;
+    height: 25vh;
+    position: relative;
+}
+
+.title-background img {
+    object-fit: cover;
+    filter: blur(3px);
+}
+
+.title-background-text {
+    position: absolute;
+    width: 20%;
+    margin: -1.5% 0 0 -10%;
+    padding: 0 10px;
+    top: 50%;
+    left: 50%;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+    border: 1.5px solid rgb(255, 255, 255);
+}
+
+.subtitle {
+    padding: 30px;
+    line-height: normal;
+}
+
+.photo-grid {
+    display: flex;
+    width: 100%;
 }
 
 footer p {
@@ -106,9 +158,8 @@ footer p strong {
     .repeater-text {
         width: 60%;
         margin: -5% 0 0 -30%;
-        border: 2px solid #FFFFFF;
     }
-    .repeater h2 {
+    .repeater h3 {
         font-size: 4vw;
         font-weight: 200;
     }
