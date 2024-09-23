@@ -79,7 +79,7 @@ img {
 
 .repeater-text {
     width: 40%;
-    margin: -5% 0 0 -20%;
+    margin: -5.8% 0 0 -20%;
     background-color: rgba(0, 0, 0, 0.2);
     transition: background-color 0.1s;
     border-radius: 5px;
@@ -121,7 +121,7 @@ img {
 .title-background-text {
     position: absolute;
     width: 20%;
-    margin: -1.5% 0 0 -10%;
+    margin: -1.8% 0 0 -10%;
     padding: 0 10px;
     top: 50%;
     left: 50%;
