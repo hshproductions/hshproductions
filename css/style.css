@@ -1,178 +1,188 @@
 body {
-    background-color: black;
-    color: #FFFFFF;
-    font-family: Poppins;
-    text-align: center;
-    line-height: 5px;
-    margin-left: 0px;
+  background-color: black;
+  color: #ffffff;
+  font-family: Poppins;
+  text-align: center;
+  line-height: 5px;
+  margin-left: 0px;
 }
 
 h2 {
-    font-weight: 200;
-    font-size: calc(2vw + 1vh);
+  font-weight: 200;
+  font-size: calc(2vw + 1vh);
 }
 
 p {
-    font-weight: 100;
-    font-size: 15px;
+  font-weight: 100;
+  font-size: 15px;
 }
 
-a, a:hover, a:visited, a:active {
-    color: inherit;
-    text-decoration: none;
+a,
+a:hover,
+a:visited,
+a:active {
+  color: inherit;
+  text-decoration: none;
 }
 
 img {
-    padding: 5px;
+  padding: 5px;
 }
 
 .navbar {
-    display: grid;
+  display: grid;
 }
 
 .logo {
-    padding: 10px 0 15px 5%;
-    float: left;
+  padding: 10px 0 15px 5%;
+  float: left;
 }
 
 .logo img {
-    display: inline-block;
-    vertical-align: middle;
-    padding-right: 10px;
+  display: inline-block;
+  vertical-align: middle;
+  padding-right: 10px;
 }
 
 .logo-name {
-    font-weight: 300;
-    font-size: 26px;
-    vertical-align: middle;
+  font-weight: 300;
+  font-size: 26px;
+  vertical-align: middle;
 }
 
 .glass {
-    background: linear-gradient(135deg, rgba(1, 113, 187, 0.2), rgba(1, 113, 187, 0));
-    backdrop-filter: blur(2px);
-    -webkit-backdrop-filter: blur(2px);
-    border-radius: 15px;
-    border: 1px solid rgb(255, 255, 255);
-    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  background: linear-gradient(
+    135deg,
+    rgba(1, 113, 187, 0.2),
+    rgba(1, 113, 187, 0)
+  );
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px);
+  border-radius: 15px;
+  border: 1px solid rgb(255, 255, 255);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
 }
 
 .repeater {
-    display: grid;
-    grid-template-columns: 25vw 25vw 25vw 25vw;
-    grid-template-rows: 50% 50%;
-    width: 100%;
-    height: 60vh;
+  display: grid;
+  grid-template-columns: 25vw 25vw 25vw 25vw;
+  grid-template-rows: 50% 50%;
+  width: 100%;
+  height: 60vh;
 }
 
 .repeater-item {
-    position: relative;
-    transition: 0.2s;
-    border: rgba(0, 0, 0, 0);
-    height: 100%;
+  position: relative;
+  transition: 0.2s;
+  border: rgba(0, 0, 0, 0);
+  height: 100%;
 }
 
 .repeater-item img {
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
 }
 
 .repeater-text {
-    width: 40%;
-    margin: -5.8% 0 0 -20%;
-    background-color: rgba(0, 0, 0, 0.2);
-    transition: background-color 0.1s;
-    border-radius: 5px;
+  width: 40%;
+  margin: -5.8% 0 0 -20%;
+  background-color: rgba(0, 0, 0, 0.2);
+  transition: background-color 0.1s;
+  border-radius: 5px;
 }
 
 .repeater-item:hover {
-    .repeater-text {
-        background-color: rgba(0, 0, 0, 0.4);
-    }
+  .repeater-text {
+    background-color: rgba(0, 0, 0, 0.4);
+  }
 }
 
 .repeater h3 {
-    font-weight: 100;
-    font-size: 1.2vw;
-    padding: 0 5px;
+  font-weight: 100;
+  font-size: 1.2vw;
+  padding: 0 5px;
 }
 
 .repeater img {
-    padding: 0;
+  padding: 0;
 }
 
 .centered-over-img {
-    position: absolute;
-    top: 50%;
-    left: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
 }
 
 .title-background {
-    width: 100%;
-    height: 25vh;
-    position: relative;
+  width: 100%;
+  height: 25vh;
+  position: relative;
 }
 
 .title-background img {
-    object-fit: cover;
-    filter: blur(3px);
+  object-fit: cover;
+  filter: blur(3px);
 }
 
 .title-background-text {
-    position: absolute;
-    width: 20%;
-    margin: -1.8% 0 0 -10%;
-    padding: 0 10px;
-    top: 50%;
-    left: 50%;
-    background-color: rgba(0, 0, 0, 0.4);
-    border-radius: 10px;
-    border: 1.5px solid rgb(255, 255, 255);
+  position: absolute;
+  width: 20%;
+  margin: -1.8% 0 0 -10%;
+  padding: 0 10px;
+  top: 50%;
+  left: 50%;
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+  border: 1.5px solid rgb(255, 255, 255);
 }
 
 .subtitle {
-    padding: 30px;
-    line-height: normal;
+  padding: 30px;
+  line-height: normal;
 }
 
 .photo-grid {
-    display: flex;
-    width: 100%;
+  display: flex;
+  width: 100%;
 }
 
 footer p {
-    font-weight: 100;
-    font-size: small;
+  font-weight: 100;
+  font-size: small;
 }
 
 footer p strong {
-    font-weight: 300;
+  font-weight: 300;
 }
 
 @media screen and (max-width: 600px) {
+  h2 {
+    font-size: 20px;
+  }
 
-    h2 {
-        font-size: 20px;
-    }
+  .repeater {
+    grid-template-columns: 100vw;
+    grid-template-rows: repeat(8, 12.5%);
+    height: 200vh;
+  }
 
-    .repeater {
-        grid-template-columns: 100vw;
-        grid-template-rows: repeat(8, 12.5%);
-        height: 200vh;
-    }
+  .repeater-text {
+    width: 60%;
+    margin: -5% 0 0 -30%;
+  }
+  .repeater h3 {
+    font-size: 4vw;
+    font-weight: 200;
+  }
 
-    .repeater-text {
-        width: 60%;
-        margin: -5% 0 0 -30%;
-    }
-    .repeater h3 {
-        font-size: 4vw;
-        font-weight: 200;
-    }
+  .title-background-text {
+    width: 30%;
+    top: 50%;
+    left: 44%;
+  }
 
-    .title-background-text {
-        width: 30%;
-        top: 50%;
-        left: 44%;
-    }
+  .title-background-text h2 {
+    font-size: 4vw;
+  }
 }
