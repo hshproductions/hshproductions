@@ -178,8 +178,10 @@ footer p strong {
 
   .title-background-text {
     width: 35%;
-    top: 45%;
-    left: 44%;
+    left: 32.5%;
+    top: 40%;
+    margin: auto;
+    padding: 0;
   }
 
   .title-background-text h2 {
