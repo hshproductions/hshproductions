@@ -169,4 +169,10 @@ footer p strong {
         font-size: 4vw;
         font-weight: 200;
     }
+
+    .title-background-text {
+        width: 30%;
+        top: 50%;
+        left: 44%;
+    }
 }
