@@ -31,6 +31,7 @@ img {
 
 .navbar {
   display: grid;
+  grid-template-columns: 2;
 }
 
 .logo {
@@ -48,6 +49,17 @@ img {
   font-weight: 300;
   font-size: 26px;
   vertical-align: middle;
+}
+
+.social-icons {
+  align-items: center;
+  float: right;
+  padding-right: 20px;
+  padding-top: 25px;
+}
+
+.social-icons a {
+  padding-left: 10px;
 }
 
 .glass {
@@ -142,9 +154,20 @@ img {
   line-height: normal;
 }
 
+.subtitle p {
+  line-height: 10px;
+}
+
 .photo-grid {
   display: flex;
   width: 100%;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.photo-grid img {
+  width: auto;
+  height: 25vw;
 }
 
 footer p {
