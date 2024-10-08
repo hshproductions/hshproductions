@@ -155,7 +155,7 @@ img {
 }
 
 .subtitle p {
-  line-height: 10px;
+  line-height: normal;
 }
 
 .photo-grid {
