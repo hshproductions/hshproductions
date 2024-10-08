@@ -165,7 +165,7 @@ img {
   flex-wrap: wrap;
 }
 
-.photo-grid img {
+.photo-grid img,video {
   width: auto;
   height: 25vw;
 }
@@ -222,5 +222,10 @@ footer p strong {
 
   .title-background-text h2 {
     font-size: 4vw;
+  }
+
+  .photo-grid img,video {
+    height: auto;
+    width: 100%;
   }
 }
