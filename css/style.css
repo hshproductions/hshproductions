@@ -29,6 +29,11 @@ img {
   padding: 5px;
 }
 
+
+video {
+  padding: 5px;
+}
+
 .navbar {
   display: grid;
   grid-template-columns: 2;
@@ -156,6 +161,10 @@ img {
 
 .subtitle p {
   line-height: normal;
+}
+
+.list {
+  line-height: 0px;
 }
 
 .photo-grid {
