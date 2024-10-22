@@ -88,6 +88,15 @@ video {
   height: 60vh;
 }
 
+.single-row {
+  grid-template-rows: 100%;
+  height: 30vh;
+}
+
+.triple-column {
+  grid-template-columns: 33.3vw 33.4vw 33.3vw;
+}
+
 .repeater-item {
   position: relative;
   transition: 0.2s;
@@ -109,8 +118,19 @@ video {
   border-radius: 5px;
 }
 
+.hire-repeater-text {
+  width: 60%;
+  margin: -5.8% 0 0 -30%;
+  background-color: rgba(0, 0, 0, 0.2);
+  transition: background-color 0.1s;
+  border-radius: 5px;
+}
+
 .repeater-item:hover {
   .repeater-text {
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+  .hire-repeater-text {
     background-color: rgba(0, 0, 0, 0.4);
   }
 }
@@ -154,8 +174,29 @@ video {
   border: 1.5px solid rgb(255, 255, 255);
 }
 
+.nav-bar {
+  display: flex;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 15px;
+}
+
+.nav-bar a {
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+#current-page {
+  font-weight: normal;
+}
+
+.nav-bar a:hover {
+  color: #0071bb;
+}
+
 .subtitle {
   padding: 30px;
+  padding-top: 0px;
   line-height: normal;
 }
 
@@ -212,10 +253,26 @@ footer p strong {
     height: 200vh;
   }
 
+  .single-row {
+    grid-template-rows: repeat(4, 25%);
+    height: 100vh;
+  }
+
+  .triple-column {
+    grid-template-rows: repeat(6, 16.66%);
+    height: 150vh;
+  }
+
   .repeater-text {
     width: 60%;
     margin: -5% 0 0 -30%;
   }
+
+  .hire-repeater-text {
+    width: 80%;
+    margin: -5% 0 0 -40%;
+  }
+
   .repeater h3 {
     font-size: 4vw;
     font-weight: 200;
