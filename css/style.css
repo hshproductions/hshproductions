@@ -34,6 +34,21 @@ video {
   padding: 5px;
 }
 
+table {
+  width: 80%;
+  table-layout: fixed;
+  line-height: normal;
+  margin: auto;
+}
+
+table th {
+  font-weight: normal;
+}
+
+table td {
+  font-weight: lighter;
+}
+
 .navbar {
   display: grid;
   grid-template-columns: 2;
@@ -206,6 +221,27 @@ video {
 
 .list {
   line-height: 0px;
+}
+
+.deck-sizes {
+  border-radius: 2px;
+  border-style: solid;
+  width: 100px;
+  height: 50px;
+  display: inline-block;
+  margin-bottom: 10px;
+  position: relative;
+  background-image: url("/images/staging/litedeck-birdseye.png");
+  background-size: cover;
+  border-color: #C0C0C0;
+}
+
+.deck-sizes p {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .photo-grid {
