@@ -315,15 +315,15 @@ footer p strong {
   }
 
   .title-background-text {
-    width: 35%;
-    left: 32.5%;
-    top: 40%;
+    width: 60%;
+    left: 20%;
+    top: 30%;
     margin: auto;
     padding: 0;
   }
 
   .title-background-text h2 {
-    font-size: 4vw;
+    font-size: 10vw;
   }
 
   .photo-grid img,video {
