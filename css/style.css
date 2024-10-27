@@ -231,7 +231,7 @@ table td {
   display: inline-block;
   margin-bottom: 10px;
   position: relative;
-  background-image: url("/images/staging/litedeck-birdseye.png");
+  background-image: url("../images/staging/litedeck-birdseye.png");
   background-size: cover;
   border-color: #C0C0C0;
 }
