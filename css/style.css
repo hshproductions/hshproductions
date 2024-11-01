@@ -15,7 +15,7 @@ h2 {
 
 h4 {
   font-weight: 200;
-  font-size: calc(2vw + 1vh)  ;
+  font-size: 40px;
   text-align: left;
   padding-left: 10%;
 }
@@ -188,8 +188,8 @@ table td {
 
 .title-background-text {
   position: absolute;
-  width: 35%;
-  margin: -1.8% 0 0 -17.5%;
+  width: 45%;
+  margin: -1.8% 0 0 -22.5%;
   padding: 0 10px;
   top: 50%;
   left: 50%;
@@ -324,8 +324,8 @@ footer p strong {
   }
 
   .title-background-text {
-    width: 70%;
-    left: 15%;
+    width: 85%;
+    left: 7.5%;
     top: 35%;
     margin: auto;
     padding: 0;
