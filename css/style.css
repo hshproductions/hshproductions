@@ -9,7 +9,15 @@ body {
 
 h2 {
   font-weight: 200;
-  font-size: calc(2vw + 1vh);
+  font-size: calc(2vw + 1vh)  ;
+  text-align: center;
+}
+
+h4 {
+  font-weight: 200;
+  font-size: calc(2vw + 1vh)  ;
+  text-align: left;
+  padding-left: 10%;
 }
 
 p {
@@ -39,6 +47,7 @@ table {
   table-layout: fixed;
   line-height: normal;
   margin: auto;
+  text-align: left;
 }
 
 table th {
